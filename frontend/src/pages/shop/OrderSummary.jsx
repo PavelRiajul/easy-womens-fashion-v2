@@ -48,7 +48,7 @@ const OrderSummary = () => {
             <div className="px-6 py-4 space-y-5">
                 <h1 className="text-2xl font-bold text-dark">Order Summary</h1>
                 <p className="text-dark mt-2">Selected Items : {selectedItems}</p>
-                <p className="text-dark mt-2">Total Price : ${totalPrice.toFixed(2)}</p>
+                <p className="text-dark mt-2">Total Price : BDT{totalPrice.toFixed(2)}</p>
             </div>
             <div className="px-4 pb-6">
                 <button 

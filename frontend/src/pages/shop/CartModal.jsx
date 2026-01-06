@@ -46,7 +46,7 @@ const CartModal = ({ products, isOpen, onClose }) => {
                                             <img src={product?.image} alt="image" className="size-12 object-cover mr-4" />
                                             <div>
                                                 <h5 className="text-lg font-medium">{product?.name}</h5>
-                                                <p className="text-gray-600 text-sm">${product?.price}</p>
+                                                <p className="text-gray-600 text-sm">BDT{product?.price}</p>
                                             </div>
                                         </div>
 
